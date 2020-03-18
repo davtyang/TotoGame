@@ -70,7 +70,7 @@ public class TotogamingBaseTest {
 
 	@AfterTest
 	public void cleanup() {
-		// driver.quit();
+		 driver.quit();
 	}
 
 }

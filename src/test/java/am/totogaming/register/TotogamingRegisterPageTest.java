@@ -10,7 +10,7 @@ public class TotogamingRegisterPageTest extends TotogamingBaseTest {
 	@Test
 	public void regFunctionalityTest() {
 		TotogamingHomePage home = new TotogamingHomePage(driver);
-		TotogamingRegisterPage registration = home.clickOnbutton();
+		TotogamingRegisterPage registration = home.clickOnRegisterButton();
 		
 		registration.fillFirstname("fgdsgasgd");
 		registration.fillLastname("iuougouygoyug");

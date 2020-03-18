@@ -2,14 +2,8 @@
 <suite name="am.Toto Suite" verbose="1">
 	<test name="am.Toto Test">
 		<classes>
-			<class name="am.totogaming.register.TotogamingRegisterPageTest">
+			<class name="am.totogaming.login.TotogamingLoginTest">
 				<methods>
-					<!--<include name="myClassTotoTest" />-->
-					<!--<include name="myClassTotoTestTwo"/>-->
-					<!--<include name="myClassTotoTestThree" />-->
-					<!--<include name="myClassTotoTestFour" />-->
-					<!--<include name="myClassTotoTestFive" />-->
-					
 				</methods>
 			</class>
 		</classes>

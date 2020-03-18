@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import am.totogaming.pages.base.TotogamingBasePageObject;
+import am.totogaming.pages.login.TotogamingLoginPage;
 import am.totogaming.pages.register.TotogamingRegisterPage;
 
 public class TotogamingHomePage extends TotogamingBasePageObject {
@@ -16,9 +17,19 @@ public class TotogamingHomePage extends TotogamingBasePageObject {
 	@FindBy(xpath = REGISTER_BUTTON)
 	WebElement button;
 
-	public TotogamingRegisterPage clickOnbutton() {
+	public TotogamingRegisterPage clickOnRegisterButton() {
 		button.click();
 		return new TotogamingRegisterPage(driver);
+
+	}
+
+	public final String LOGIN_BTN = "//a[@automation='home_login_button']";
+	@FindBy(xpath = LOGIN_BTN)
+	WebElement loginBTNclick;
+
+	public TotogamingLoginPage clickonLGNbutton() {
+		loginBTNclick.click();
+		return new TotogamingLoginPage(driver);
 
 	}
 
