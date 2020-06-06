@@ -2,7 +2,7 @@
 <suite name="am.Toto Suite" verbose="1">
 	<test name="am.Toto Test">
 		<classes>
-			<class name="am.totogaming.login.TotogamingLoginTest">
+			<class name="am.totogaming.pages.members.test.TotogamingMembersTest">
 				<methods>
 				</methods>
 			</class>

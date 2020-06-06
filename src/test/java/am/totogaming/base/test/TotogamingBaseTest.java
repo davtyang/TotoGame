@@ -1,4 +1,4 @@
-package am.totogaming.base;
+package am.totogaming.base.test;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,6 +15,7 @@ public class TotogamingBaseTest {
 	protected WebDriver driver;
 	protected String correctUsername = "";
 	protected String correctPassword = "";
+	public static final String URL="https://www.totogaming.am/en";
 
 	@BeforeTest
 	public void prepareEnv() throws IOException {
@@ -63,14 +64,14 @@ public class TotogamingBaseTest {
 			driver = new InternetExplorerDriver();
 		}
 
-		driver.get("https://www.totogaming.am/en");
+		driver.get(URL);
 		driver.manage().window().maximize();
 
 	}
 
 	@AfterTest
 	public void cleanup() {
-		 driver.quit();
+		driver.quit();
 	}
 
 }

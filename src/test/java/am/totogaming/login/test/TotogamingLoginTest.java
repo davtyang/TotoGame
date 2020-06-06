@@ -1,9 +1,9 @@
-package am.totogaming.login;
+package am.totogaming.login.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import am.totogaming.base.TotogamingBaseTest;
+import am.totogaming.base.test.TotogamingBaseTest;
 import am.totogaming.pages.home.TotogamingHomePage;
 import am.totogaming.pages.login.TotogamingLoginPage;
 import am.totogaming.pages.member.TotogamingMemberHomePage;

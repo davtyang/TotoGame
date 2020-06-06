@@ -1,4 +1,4 @@
-package am.totogaming.home;
+package am.totogaming.home.test;
 
 //import org.testng.annotations.Test;
 //

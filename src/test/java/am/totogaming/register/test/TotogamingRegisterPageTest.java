@@ -1,8 +1,8 @@
-package am.totogaming.register;
+package am.totogaming.register.test;
 
 import org.testng.annotations.Test;
 
-import am.totogaming.base.TotogamingBaseTest;
+import am.totogaming.base.test.TotogamingBaseTest;
 import am.totogaming.pages.home.TotogamingHomePage;
 import am.totogaming.pages.register.TotogamingRegisterPage;
 
